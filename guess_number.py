@@ -21,8 +21,6 @@ while True:
 randomNumber = random.randint(fn, sn)
 attempts = 100
 
-print(randomNumber)
-
 while True:
     print("")
     print("Guess the number:")
