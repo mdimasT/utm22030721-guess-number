@@ -1,4 +1,3 @@
-#code libraries that will be used later.
 import getpass
 
 #Start of loop asking players if they would like to play again.
