@@ -29,12 +29,12 @@ while True:
     try:
         number = int(input())
 
-        if number == randomNumber and attempts != 0:
+        if number == randomNumber and attempts != 10:
             print("")
             print("Congratulations!!, you won with", attempts, "points")
             break
 
-        elif attempts == 0:
+        elif attempts == 10:
             print("")
             print("No points remaining, you have lost")
             print("The correct number was:", randomNumber)
